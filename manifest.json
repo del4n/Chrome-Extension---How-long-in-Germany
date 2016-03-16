@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Koliko već dana u Njemačkoj",
+  "description": "Extenzija koja govori koliko si već dana u Njemačkoj!",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ],
+    "omnibox": { "keyword" : "yeah" }
+}
