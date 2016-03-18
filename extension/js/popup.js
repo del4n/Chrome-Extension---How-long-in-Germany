@@ -11,8 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('footer').innerHTML  = obj.footer;
 
         var daysDiff = obj.currentDay ? (daysBetween(startDate) + 1) : daysBetween(startDate);
-        console.log(obj.currentDay);
-        console.log(daysBetween(startDate));
+
         document.getElementById('dayVal').innerHTML = daysDiff;
         chrome.browserAction.setBadgeText({
             text: daysDiff
