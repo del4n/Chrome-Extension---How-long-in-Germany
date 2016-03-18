@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         document.getElementById('dayVal').innerHTML = daysDiff;
         chrome.browserAction.setBadgeText({
-            text: daysDiff
+            text: daysDiff.toString()
         });
     });
 
