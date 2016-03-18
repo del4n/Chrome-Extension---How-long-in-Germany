@@ -6,7 +6,7 @@ Extension counts how many days passed since person arrived to Germany.
 TODO: 
 - <del>customization via settings option</del>
 - <del>add option to choose custom date</del>
-- <del>add option to include current date</del>
+- <del>add option to include current day</del>
 - improve extension aesthetics
 - publish the extension 
 
